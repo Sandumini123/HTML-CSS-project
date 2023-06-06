@@ -1,0 +1,160 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.wrapper{
+	width:1170px;
+	margin:auto;
+}
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("../images/2.jpg");
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-position: center center;
+    position:relative;	
+	
+}
+.header {
+  padding: 20px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 14px;
+}
+.nav-area{
+	text-transform: uppercase;
+	float: right;
+	list-style: none;
+	margin-top:30px;
+}
+.nav-area li{
+	display:inline-block;
+}
+.nav-area li a{
+	color:#fff;
+	text-decoration:none;
+	padding: 5px 20px;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+}
+.nav-area li a:hover{
+	background:#fff;
+	color:#333;
+}
+.logo{
+	width: 50px;
+	float: left;
+	height: auto;
+}
+
+::selection{
+	color: #fff;
+	background: #3385ff;
+}
+.sub{
+	height: 60px;
+	width: 400px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	position: relative;
+	position: center;
+}
+.sub .button1{
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	color: #fff;
+	background: red;
+	line-height: 60px;
+	font-size: 27px;
+	font-weight:500;
+	border-radius: 5px;
+	user-select: none;
+	cursor: pointer;
+	box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+	transition: 0.4s cubic-bezier(0.68, -0.55,0.256,1.55);
+}
+.sub .button1{
+	transform: scale(0.9);
+	font-size: 22px;
+	margin-top: 300px;
+	margin-left: 400px;
+	
+}
+#click:checked~.button1{
+	height: 40px;
+	width: 100px;
+	opacity: 0;
+	pointer-events: none;
+}
+.sub .field{
+	height: 100%;
+	width: 0%;
+	opacity: 0;
+	pointer-events: none;
+	position: relative;
+	transition: 0.4s cubic-bezier(0.68, -0.55,0.256,1.55);
+	margin-top: 300px;
+	margin-left: 700px;
+}
+#click:checked~ .field{
+	width: 100%;
+	opacity: 1;
+	pointer-events: auto;	
+}
+.sub .field input{
+	height: 100%;
+	width: 100%;
+	border: 9px solid #fff;
+	border-radius: 9px;
+	padding: 0 130px 0 15px;
+	font-size: 20px;
+	outline: none;
+	box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+	margin-right: 500px;
+}
+.sub .field input:: placeholder{
+	color:#fff;
+	font-size:18px;
+	margin-left: 700px;
+}
+.sub .field  .button2{
+	position: absolute;
+	top:20%;
+	right: 15px;
+	transform: translatiY(-50%);
+	font-size: 22px;
+	color: #fff;
+	line-height: 40px;
+	background: red;
+	height: 40px;
+	width: 100px;
+	user-select: none;
+	border-radius:5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+.sub .field  .button2: active{
+	transform: translateY(-50)scale(0.9);
+}
+.sub #click{
+	display: none;
+}
+.footer{
+	width: 100%;
+	height: 50PX;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color:  #000;
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
+ 

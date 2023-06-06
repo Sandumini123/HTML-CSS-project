@@ -1,0 +1,120 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Playfair Display', serif;
+}
+.navbar{
+	width: 100%;
+	height: 80px;
+	background-color:  #BCC6CC;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color:#000;
+}
+.menu ul{
+	display: flex;
+    align-items: center;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #000;
+	padding:5px 12px;
+	letter-spacing: 2px;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	background:  #B6B6B4;
+	color:#333;
+}
+.signup a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	border-radius: 12px;
+	padding: 12px 30px;
+	border: 2px solid #728C00;
+}
+.signup a:hover{
+	background:  #BCE954;
+	color:#333;
+}
+.body{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/sinharaja.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.heading{
+	width: 30%;
+	text-align: center;
+	color: #fff;
+}
+.heading h1{
+	font-size: 40px;
+}
+.heading a{
+	text-decoration: none;
+	color: #000;
+	font-size: 25px;
+	font-weight: bold;
+	border-radius: 45px;
+	padding: 14px 50px;
+	background-color: #fff;
+}
+.heading a:hover{
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+.tours{
+	width: 60%;
+	display: flex;
+	justify-content: space-around;
+}
+.places{
+	display: inline;
+	text-align: center;
+	border-radius: 12px;
+}
+.places h2{
+	color: #BCE954;
+	font-size: 35px;
+	letter-spacing: 3px;
+	border-radius: 1px;
+	padding: 30px 30px;
+	background-color:#000;
+}
+.places a{
+	text-decoration: none;
+	color: #BCE954;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 12px;
+	background-color: #000;
+	padding: 12px;
+}
+.places a:hover{
+	letter-spacing: 3px;
+	transition: 0.6s;
+}
+.footer{
+	width: 100%;
+	height: 50PX;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color:  #BCC6CC;
+}
+.footer a{
+	text-decoration: none;
+	color: #333;
+	font-size: 18px;
+	font-weight: bold;
+}

@@ -1,0 +1,156 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width:1170px;
+	margin:auto;
+}
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url("../images/2.jpg");
+	height: 120vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+    background-position: center center;
+    position:relative;		
+}
+.header {
+  padding: 3px;
+  text-align: center;
+  background: black;
+  color: white;
+  font-size: 14px;
+  height: 10vh;
+}
+.nav-area{
+	text-transform: uppercase;
+	float: right;
+	list-style: none;
+	margin-top:30px;
+}
+.nav-area li{
+	display:inline-block;
+}
+.nav-area li a{
+	color:#fff;
+	text-decoration:none;
+	padding: 5px 20px;
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+}
+.nav-area li a:hover{
+	background:#fff;
+	color:#333;
+}
+.logo{
+	width: 50px;
+	float: left;
+	height: auto;
+	
+}
+.container{
+	width: 80%;
+	margin: 50px auto;
+}
+.con-box{margin-bottom: 10px;
+	background: #fff;
+	display: flex;
+}
+.con-left{
+	flex-basis: 60%;
+	padding: 40px 60px;
+	background: #E5E4E2;
+}
+.con-right{
+	flex-basis: 40%;
+	padding: 40px;
+	background: #368BC1;
+	color: #fff;
+}
+h1{
+	margin-bottom: 10px;
+	margin-top: 140px;
+	color: #fff;
+}
+.container p{
+	margin-bottom: 10px;
+}
+.input-row{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+.input-row . input-group{
+	flex-basis: 45%;
+}
+input{
+	width: 100%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	outline: none;
+	padding-bottom: 5px;
+}
+textarea{
+	width: 100%;
+	border: 1px solid #ccc;
+	outline: none;
+	padding: 10px;
+	box-sizing: border-box;
+}
+label{
+	margin-bottom: 6px;
+	display: block;
+	color: #1c00b5;
+}
+button{
+	background: #368BC1;
+	width: 100px;
+	border: none;
+	outline: none;
+	color: #fff;
+	height: 35px;
+	border-radius: 30px;
+	margin-top: 20px;
+	box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.4);
+	font-size: 14px;
+}
+.con-left h3{
+	color: #1c00b5;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+.con-right{
+	font-weight: 600;
+	margin-bottom: 0px;
+}
+tr td:first-child{
+	padding-right: 30px;
+	font-size: 20px;
+}
+tr td{
+	padding-top: 30px;
+	font-size: 20px;
+}
+.second{
+	padding-top: 80px;
+	font-size: 18px;
+}
+h2{
+	font-size: 18px;
+	color: #fff;
+	padding-bottom: 10px;
+}
+.footer{
+	width: 100%;
+	height: 50PX;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color:  #000;
+}
+.footer a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+}
